@@ -30,6 +30,7 @@ class Access extends Controller\AccessController {
             $searchType = strtolower($params['arg1']);
             $searchToken = trim((string)$params['arg2']);
             $searchTokenLower = strtolower($searchToken);
+            $searchTokenWildcard = '%' . $searchTokenLower . '%';
 
             $accessModel = null;
             switch($searchType){
@@ -51,7 +52,7 @@ class Access extends Controller\AccessController {
                     "LOWER(name) LIKE :token AND " .
                     "active = 1 AND " .
                     "shared = 1 ",
-                    ':token' => '%' . $searchTokenLower . '%'
+                    ':token' => $searchTokenWildcard
                 ]);
 
                 if($accessList){
@@ -65,27 +66,34 @@ class Access extends Controller\AccessController {
                 if(
                     $searchType === 'alliance' &&
                     empty($accessData) &&
-                    $searchToken !== ''
+                    strlen($searchToken) >= 3
                 ){
-                    $activeCharacter = $this->getCharacter();
+                    try{
+                        $activeCharacter = $this->getCharacter();
 
-                    $universeIds = $f3->ccpClient()->send('search', ['alliance'], $searchToken, $activeCharacter->_id, $activeCharacter->getAccessToken());
-                    if(
-                        !isset($universeIds['error']) &&
-                        !empty($universeIds['alliance'])
-                    ){
-                        $allianceData = $f3->ccpClient()->send('getUniverseNames', $universeIds['alliance']);
-                        foreach((array)$allianceData as $item){
-                            if(
-                                isset($item['category']) &&
-                                $item['category'] === 'alliance'
-                            ){
-                                $accessData[] = [
-                                    'id' => (int)$item['id'],
-                                    'name' => (string)$item['name']
-                                ];
+                        $universeIds = $f3->ccpClient()->send('search', ['alliance'], $searchToken, $activeCharacter->_id, $activeCharacter->getAccessToken());
+                        if(
+                            !isset($universeIds['error']) &&
+                            !empty($universeIds['alliance'])
+                        ){
+                            $allianceIds = array_slice((array)$universeIds['alliance'], 0, 15);
+                            if(!empty($allianceIds)){
+                                $allianceData = $f3->ccpClient()->send('getUniverseNames', $allianceIds);
+                                foreach((array)$allianceData as $item){
+                                    if(
+                                        isset($item['category']) &&
+                                        $item['category'] === 'alliance'
+                                    ){
+                                        $accessData[] = [
+                                            'id' => (int)$item['id'],
+                                            'name' => (string)$item['name']
+                                        ];
+                                    }
+                                }
                             }
                         }
+                    }catch(\Throwable $e){
+                        // keep response stable (empty list) during ESI outages/errors
                     }
                 }
             }
