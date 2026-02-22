@@ -28,7 +28,8 @@ class Access extends Controller\AccessController {
             array_key_exists('arg2', $params)
         ){
             $searchType = strtolower($params['arg1']);
-            $searchToken = strtolower($params['arg2']);
+            $searchToken = trim((string)$params['arg2']);
+            $searchTokenLower = strtolower($searchToken);
 
             $accessModel = null;
             switch($searchType){
@@ -50,12 +51,41 @@ class Access extends Controller\AccessController {
                     "LOWER(name) LIKE :token AND " .
                     "active = 1 AND " .
                     "shared = 1 ",
-                    ':token' => '%' . $searchToken . '%'
+                    ':token' => '%' . $searchTokenLower . '%'
                 ]);
 
                 if($accessList){
                     foreach($accessList as $accessObject){
                         $accessData[] = $accessObject->getData();
+                    }
+                }
+
+                // Fallback: load alliance data from ESI if no local shared alliance matched.
+                // This keeps existing behavior for character/corporation search unchanged.
+                if(
+                    $searchType === 'alliance' &&
+                    empty($accessData) &&
+                    $searchToken !== ''
+                ){
+                    $activeCharacter = $this->getCharacter();
+
+                    $universeIds = $f3->ccpClient()->send('search', ['alliance'], $searchToken, $activeCharacter->_id, $activeCharacter->getAccessToken());
+                    if(
+                        !isset($universeIds['error']) &&
+                        !empty($universeIds['alliance'])
+                    ){
+                        $allianceData = $f3->ccpClient()->send('getUniverseNames', $universeIds['alliance']);
+                        foreach((array)$allianceData as $item){
+                            if(
+                                isset($item['category']) &&
+                                $item['category'] === 'alliance'
+                            ){
+                                $accessData[] = [
+                                    'id' => (int)$item['id'],
+                                    'name' => (string)$item['name']
+                                ];
+                            }
+                        }
                     }
                 }
             }
