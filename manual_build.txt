@@ -1,0 +1,558 @@
+[[90m09:22:27[39m] Using gulpfile D:\GIT\pathfinder\gulpfile.js
+[[90m09:22:27[39m] Starting 'task:configProduction'...
+[[90m09:22:27[39m] Starting 'task:buildJs'...
+[[90m09:22:27[39m] Starting 'task:watchCss'...
+[[90m09:22:27[39m] Starting '<anonymous>'...
+[[90m09:22:27[39m] Starting 'task:concatJS'...
+[[90m09:22:27[39m] Starting 'task:buildCss'...
+[[90m09:22:27[39m] Finished '<anonymous>' after 852 μs
+[[90m09:22:27[39m] Starting 'task:printConfig'...
+[[90m09:22:27[39m] Starting 'task:sass'...
+[[90m09:22:27[39m] [2m[90m═ CONFIG ═══════════════════════════════════════════════════════════════════════[39m[22m
+[[90m09:22:27[39m] [33mTASK                                    [39m [36mtask:configProduction                   [39m
+[[90m09:22:27[39m] [33mTAG                                     [39m [32mv2.2.4                                  [39m
+[[90m09:22:27[39m] [33mJS.UGLIFY                               [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mJS.SOURCEMAPS                           [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mJS.GZIP                                 [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mJS.BROTLI                               [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mCSS.SOURCEMAPS                          [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mCSS.GZIP                                [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mCSS.BROTLI                              [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mIMG.ACTIVE                              [39m [32mtrue                                    [39m
+[[90m09:22:27[39m] [33mDEBUG                                   [39m [31mfalse                                   [39m
+[[90m09:22:27[39m] [2m[90m════════════════════════════════════════════════════════════════════════════════[39m[22m
+[[90m09:22:27[39m] Finished 'task:printConfig' after 8.47 ms
+[[90m09:22:27[39m] Starting 'task:checkConfig'...
+[[90m09:22:27[39m] Finished 'task:checkConfig' after 4.43 ms
+[[90m09:22:27[39m] Finished 'task:configProduction' after 15 ms
+[[90m09:22:27[39m] Optimizing app\admin.js
+gulp-uglify [app\admin.js]: Dropping unreachable code [app\admin.js:2,83630]
+gulp-uglify [app\admin.js]: Declarations in unreachable code! [app\admin.js:2,83630]
+gulp-uglify [app\admin.js]: Condition left of || always false [app\admin.js:3405,1946]
+gulp-uglify [app\admin.js]: Side effects in initialization of unused variable b [app\admin.js:3405,12752]
+gulp-uglify [app\admin.js]: Condition always false [app\admin.js:3406,4945]
+gulp-uglify [app\admin.js]: Condition left of || always false [app\admin.js:3406,4997]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable t [app\admin.js:3417,1777]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable i [app\admin.js:3417,16290]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable s [app\admin.js:3417,16296]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable u [app\admin.js:3417,22088]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:3417,22094]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable h [app\admin.js:3417,22164]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable m [app\admin.js:3417,22242]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable p [app\admin.js:3417,22298]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable g [app\admin.js:3417,22318]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable v [app\admin.js:3417,22357]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:3417,24526]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable u [app\admin.js:3417,24532]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:3417,24562]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable h [app\admin.js:3417,27462]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable m [app\admin.js:3417,27468]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable h [app\admin.js:3417,27804]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable m [app\admin.js:3417,27810]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable h [app\admin.js:3417,27867]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable m [app\admin.js:3417,27873]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable m [app\admin.js:3417,30358]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable n [app\admin.js:3418,1623]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable x [app\admin.js:3418,2965]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable _ [app\admin.js:3418,3005]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable w [app\admin.js:3418,3013]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable S [app\admin.js:3418,3030]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:3418,3094]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable y [app\admin.js:3418,3126]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable B [app\admin.js:3418,3133]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable T [app\admin.js:3418,3140]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable k [app\admin.js:3418,3166]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable r [app\admin.js:3418,5485]
+gulp-uglify [app\admin.js]: Side effects in initialization of unused variable formHelp [app\admin.js:3761,24]
+gulp-uglify [app\admin.js]: Dropping unused variable createDateAsUTC [app\admin.js:6853,8]
+gulp-uglify [app\admin.js]: Dropping unused variable hasEvent [app\admin.js:6886,8]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7350,193]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7350,492]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7352,18]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7354,62]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7360,261]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7363,41]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7368,470]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable g [app\admin.js:7369,180]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7371,325]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7374,418]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7375,420]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable j [app\admin.js:7380,450]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7381,7]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:7381,98]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable g [app\admin.js:7381,270]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7383,361]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7383,375]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7383,495]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:7384,7]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7384,57]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7384,469]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7389,481]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7390,9]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable l [app\admin.js:7391,365]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7391,374]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable i [app\admin.js:7391,395]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable h [app\admin.js:7391,416]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7391,138]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7393,140]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:7395,162]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7395,455]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable j [app\admin.js:7396,32]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7401,199]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7408,123]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7412,253]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7414,97]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7417,135]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7420,24]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7431,358]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7423,248]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable j [app\admin.js:7424,0]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7429,154]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7431,0]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable e [app\admin.js:7436,9]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7436,26]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7443,363]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7443,367]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7444,462]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7445,89]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7448,157]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7452,511]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7452,166]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7460,177]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7462,15]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7462,20]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7462,147]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7472,500]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7475,373]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7477,21]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:7478,324]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7480,426]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7632,421]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7632,453]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable c [app\admin.js:7632,457]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7633,23]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable d [app\admin.js:7633,44]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable b [app\admin.js:7633,76]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable a [app\admin.js:7639,306]
+gulp-uglify [app\admin.js]: Dropping duplicated definition of variable f [app\admin.js:7647,154]
+gulp-uglify [app\admin.js]: Side effects in initialization of unused variable temp [app\admin.js:7935,16]
+[[90m09:22:31[39m] [32mBuild concat file "admin.js.map"[39m
+[[90m09:22:31[39m] [32mBuild concat file "admin.js"[39m
+(node:24368) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │ @import "reset";
+   │         ^^^^^^^
+   ╵
+    sass\pathfinder.scss 13:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+16 │ @import "colors";
+   │         ^^^^^^^^
+   ╵
+    sass\pathfinder.scss 16:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+17 │ @import "variables";
+   │         ^^^^^^^^^^^
+   ╵
+    sass\pathfinder.scss 17:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+20 │ @import "bootstrap";
+   │         ^^^^^^^^^^^
+   ╵
+    sass\pathfinder.scss 20:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+23 │ @import "library/fontawesome/fontawesome";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\pathfinder.scss 23:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+15 │ $gray-mid-light:              lighten($black, 75%);
+   │                               ^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\_colors.scss 15:31    @import
+    sass\pathfinder.scss 16:9  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 75%)
+color.adjust($color, $lightness: 75%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+15 │ $gray-mid-light:              lighten($black, 75%);
+   │                               ^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\_colors.scss 15:31    @import
+    sass\pathfinder.scss 16:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")'));
+  │                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    sass\_variables.scss 6:54  @import
+    sass\pathfinder.scss 17:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+25 │ $link-hover-color:      darken($link-color, 15%);
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\_variables.scss 25:25  @import
+    sass\pathfinder.scss 17:9   root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -53.125%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+25 │ $link-hover-color:      darken($link-color, 15%);
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\_variables.scss 25:25  @import
+    sass\pathfinder.scss 17:9   root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use math.ceil instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+83 │ $font-size-large:         ceil(($font-size-base * 1.24)); // ~16px
+   │                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\_variables.scss 83:27  @import
+    sass\pathfinder.scss 17:9   root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use math.ceil instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+84 │ $font-size-small:         ceil(($font-size-base * 0.85)); // ~11px
+   │                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\_variables.scss 84:27  @import
+    sass\pathfinder.scss 17:9   root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 3.3442622951%)
+color.adjust($color, $lightness: 2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+173 │ $btn-default-border:             lighten($gray-light, 2%);
+    │                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\_variables.scss 173:34  @import
+    sass\pathfinder.scss 17:9    root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 2.7868852459%)
+color.adjust($color, $lightness: 2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+177 │ $btn-primary-border:             lighten($btn-primary-bg, 2%);
+    │                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\_variables.scss 177:34  @import
+    sass\pathfinder.scss 17:9    root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 3.7362637363%)
+color.adjust($color, $lightness: 2%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+181 │ $btn-success-border:             lighten($btn-success-bg, 2%);
+    │                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\_variables.scss 181:34  @import
+    sass\pathfinder.scss 17:9    root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2) or calc($grid-gutter-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+338 │ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2));
+    │                                           ^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\_variables.scss 338:43  @import
+    sass\pathfinder.scss 17:9    root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($navbar-height - $line-height-computed, 2) or calc(($navbar-height - $line-height-computed) / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+339 │ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2);
+    │                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\_variables.scss 339:37  @import
+    sass\pathfinder.scss 17:9    root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2) or calc($grid-gutter-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+861 │ $smart-footer-padding:      15px ($grid-gutter-width/2) 0;
+    │                                   ^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\_variables.scss 861:35  @import
+    sass\pathfinder.scss 17:9    root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($bootstrap-sass-asset-helper): twbs-image-path("#{$file-1x}"); else: "#{$file-1x}")
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+364 │   background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$file-1x}"), "#{$file-1x}"));
+    │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\bootstrap\_mixins.scss 364:25  @import
+    sass\_bootstrap.scss 14:9           @import
+    sass\pathfinder.scss 20:9           root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($bootstrap-sass-asset-helper): twbs-image-path("#{$file-2x}"); else: "#{$file-2x}")
+
+More info: https://sass-lang.com/d/if-function
+
+    ╷
+373 │     background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$file-2x}"), "#{$file-2x}"));
+    │                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    sass\bootstrap\_mixins.scss 373:27  @import
+    sass\_bootstrap.scss 14:9           @import
+    sass\pathfinder.scss 20:9           root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($line-height-computed, 2) or calc($line-height-computed / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+28 │   margin-bottom: ($line-height-computed / 2);
+   │                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\bootstrap\_type.scss 28:19  @import
+    sass\_bootstrap.scss 23:9        @import
+    sass\pathfinder.scss 20:9        root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($line-height-computed, 2) or calc($line-height-computed / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+38 │   margin-top: ($line-height-computed / 2);
+   │                ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    sass\bootstrap\_type.scss 38:16  @import
+    sass\_bootstrap.scss 23:9        @import
+    sass\pathfinder.scss 20:9        root stylesheet
+
+WARNING: 856 repetitive deprecation warnings omitted.
+
+[[90m09:22:32[39m]  [32m✔[39m [32mbuild → [35mpathfinder.css[39m[32m[39m
+[[90m09:22:32[39m] Optimizing app\datatables.loader.js
+gulp-uglify [app\datatables.loader.js]: Dropping unreachable code [app\datatables.loader.js:2,83630]
+gulp-uglify [app\datatables.loader.js]: Declarations in unreachable code! [app\datatables.loader.js:2,83630]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:119,193]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:119,492]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:121,18]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:123,62]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:129,261]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:132,41]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:137,470]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable g [app\datatables.loader.js:138,180]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:140,325]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:143,418]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:144,420]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable j [app\datatables.loader.js:149,450]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:150,7]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable f [app\datatables.loader.js:150,98]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable g [app\datatables.loader.js:150,270]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:152,361]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:152,375]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:152,495]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable f [app\datatables.loader.js:153,7]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:153,57]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:153,469]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:158,481]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:159,9]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable l [app\datatables.loader.js:160,365]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:160,374]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable i [app\datatables.loader.js:160,395]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable h [app\datatables.loader.js:160,416]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:160,138]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:162,140]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable f [app\datatables.loader.js:164,162]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:164,455]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable j [app\datatables.loader.js:165,32]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:170,199]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:177,123]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:181,253]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:183,97]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:186,135]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:189,24]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:200,358]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:192,248]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable j [app\datatables.loader.js:193,0]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:198,154]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:200,0]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable e [app\datatables.loader.js:205,9]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:205,26]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:212,363]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:212,367]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:213,462]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:214,89]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:217,157]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:221,511]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:221,166]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:229,177]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:231,15]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:231,20]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:231,147]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:241,500]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:244,373]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:246,21]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable f [app\datatables.loader.js:247,324]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:249,426]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:401,421]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:401,453]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable c [app\datatables.loader.js:401,457]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:402,23]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable d [app\datatables.loader.js:402,44]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable b [app\datatables.loader.js:402,76]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable a [app\datatables.loader.js:408,306]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable f [app\datatables.loader.js:416,154]
+gulp-uglify [app\datatables.loader.js]: Dropping duplicated definition of variable $jscomp [app\datatables.loader.js:319,4]
+[[90m09:22:33[39m] [32mBuild concat file "datatables.loader.js.map"[39m
+[[90m09:22:33[39m] [32mBuild concat file "datatables.loader.js"[39m
+[[90m09:22:33[39m] Optimizing app\login.js
+gulp-uglify [app\login.js]: Dropping unreachable code [app\login.js:2,83630]
+gulp-uglify [app\login.js]: Declarations in unreachable code! [app\login.js:2,83630]
+gulp-uglify [app\login.js]: Condition left of || always false [app\login.js:3405,1946]
+gulp-uglify [app\login.js]: Side effects in initialization of unused variable b [app\login.js:3405,12752]
+gulp-uglify [app\login.js]: Condition always false [app\login.js:3406,4945]
+gulp-uglify [app\login.js]: Condition left of || always false [app\login.js:3406,4997]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable t [app\login.js:3417,1777]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable i [app\login.js:3417,16290]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable s [app\login.js:3417,16296]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable u [app\login.js:3417,22088]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable f [app\login.js:3417,22094]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable h [app\login.js:3417,22164]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable m [app\login.js:3417,22242]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable p [app\login.js:3417,22298]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable g [app\login.js:3417,22318]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable v [app\login.js:3417,22357]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable c [app\login.js:3417,24526]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable u [app\login.js:3417,24532]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable f [app\login.js:3417,24562]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable h [app\login.js:3417,27462]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable m [app\login.js:3417,27468]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable h [app\login.js:3417,27804]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable m [app\login.js:3417,27810]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable h [app\login.js:3417,27867]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable m [app\login.js:3417,27873]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable m [app\login.js:3417,30358]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable n [app\login.js:3418,1623]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable x [app\login.js:3418,2965]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable _ [app\login.js:3418,3005]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable w [app\login.js:3418,3013]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable S [app\login.js:3418,3030]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable b [app\login.js:3418,3094]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable y [app\login.js:3418,3126]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable B [app\login.js:3418,3133]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable T [app\login.js:3418,3140]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable k [app\login.js:3418,3166]
+gulp-uglify [app\login.js]: Dropping duplicated definition of variable r [app\login.js:3418,5485]
+gulp-uglify [app\login.js]: Side effects in initialization of unused variable formHelp [app\login.js:3761,24]
+gulp-uglify [app\login.js]: Dropping unused variable createDateAsUTC [app\login.js:6853,8]
+gulp-uglify [app\login.js]: Dropping unused variable hasEvent [app\login.js:6886,8]
+gulp-uglify [app\login.js]: Condition always true [app\login.js:7379,31]
+gulp-uglify [app\login.js]: Condition always true [app\login.js:7385,31]
+gulp-uglify [app\login.js]: Condition always true [app\login.js:7401,35]
+gulp-uglify [app\login.js]: Condition always false [app\login.js:7407,44]
+gulp-uglify [app\login.js]: Condition always true [app\login.js:7411,35]
+gulp-uglify [app\login.js]: Dropping unused variable config_previewElementClass [app\login.js:9022,8]
+gulp-uglify [app\login.js]: Dropping unused variable config_loadingOptions [app\login.js:9611,8]
+gulp-uglify [app\login.js]: Side effects in initialization of unused variable lazyLoadInstance [app\login.js:11098,12]
+gulp-uglify [app\login.js]: Dropping unused variable config_headerContainerId [app\login.js:10338,8]
+gulp-uglify [app\login.js]: Dropping unused variable config_galleryThumbContainerId [app\login.js:10338,8]
+[[90m09:22:36[39m] [32mBuild concat file "login.js.map"[39m
+[[90m09:22:36[39m] [32mBuild concat file "login.js"[39m
+[[90m09:22:36[39m] Optimizing app\mappage.js
+[[90m09:22:40[39m] 'task:concatJS' errored after 12 s
+[[90m09:22:40[39m] GulpUglifyError: unable to minify JavaScript
+Caused by: TypeError: sym.definition is not a function
+File: app\mappage.js
+[[90m09:22:40[39m] 'task:buildJs' errored after 12 s

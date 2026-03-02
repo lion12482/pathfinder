@@ -1,0 +1,609 @@
+﻿[[90m06:48:24[39m] Using gulpfile D:\GIT\pathfinder\gulpfile.js
+[[90m06:48:24[39m] Starting 'task:sass'...
+node.exe : DEPRECATION 
+WARNING [legacy-js-api]
+: The legacy JS API is 
+deprecated and will be 
+removed in Dart Sass 2.
+0.0.
+위치 줄:1 문자:1
++ & "C:\Program Files\n
+odejs/node.exe" "C:\Use
+rs\lion1\AppData\Roamin
+g\ ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (DEPRECATION W   
+ AR...art Sass 2.0.    
+0.:String) [], Rem    o
+teException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+More info: https://sass
+-lang.com/d/legacy-js-a
+pi
+
+DEPRECATION WARNING [im
+port]: Sass @import rul
+es are deprecated and w
+ill be removed in Dart 
+Sass 3.0.0.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??13 ??@import "rese
+t";
+   ??        ^^^^^^^
+   ??    sass\pathfinde
+r.scss 13:9  root style
+sheet
+
+DEPRECATION WARNING [im
+port]: Sass @import rul
+es are deprecated and w
+ill be removed in Dart 
+Sass 3.0.0.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??16 ??@import "colo
+rs";
+   ??        ^^^^^^^^
+   ??    sass\pathfinde
+r.scss 16:9  root style
+sheet
+
+DEPRECATION WARNING [im
+port]: Sass @import rul
+es are deprecated and w
+ill be removed in Dart 
+Sass 3.0.0.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??17 ??@import "vari
+ables";
+   ??        ^^^^^^^^^^
+^
+   ??    sass\pathfinde
+r.scss 17:9  root style
+sheet
+
+DEPRECATION WARNING [im
+port]: Sass @import rul
+es are deprecated and w
+ill be removed in Dart 
+Sass 3.0.0.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??20 ??@import "boot
+strap";
+   ??        ^^^^^^^^^^
+^
+   ??    sass\pathfinde
+r.scss 20:9  root style
+sheet
+
+DEPRECATION WARNING [im
+port]: Sass @import rul
+es are deprecated and w
+ill be removed in Dart 
+Sass 3.0.0.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??23 ??@import "libr
+ary/fontawesome/fontawe
+some";
+   ??        ^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+   ??    sass\pathfinde
+r.scss 23:9  root style
+sheet
+
+DEPRECATION WARNING [gl
+obal-builtin]: Global b
+uilt-in functions are d
+eprecated and will be r
+emoved in Dart Sass 3.0
+.0.
+Use color.adjust instea
+d.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??15 ??$gray-mid-lig
+ht:              lighte
+n($black, 75%);
+   ??                  
+            ^^^^^^^^^^^
+^^^^^^^^^
+   ??    sass\_colors.s
+css 15:31    @import
+    sass\pathfinder.scs
+s 16:9  root stylesheet
+
+DEPRECATION WARNING [co
+lor-functions]: lighten
+() is deprecated. Sugge
+stions:
+
+color.scale($color, $li
+ghtness: 75%)
+color.adjust($color, $l
+ightness: 75%)
+
+More info: https://sass
+-lang.com/d/color-funct
+ions
+
+   ??15 ??$gray-mid-lig
+ht:              lighte
+n($black, 75%);
+   ??                  
+            ^^^^^^^^^^^
+^^^^^^^^^
+   ??    sass\_colors.s
+css 15:31    @import
+    sass\pathfinder.scs
+s 16:9  root stylesheet
+
+DEPRECATION WARNING [gl
+obal-builtin]: Global b
+uilt-in functions are d
+eprecated and will be r
+emoved in Dart Sass 3.0
+.0.
+Use string.unquote inst
+ead.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+  ??6 ??$bootstrap-sass
+-asset-helper: (twbs-fo
+nt-path("") != unquote(
+'twbs-font-path("")'));
+  ??                   
+                       
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
+  ??    sass\_variables
+.scss 6:54  @import
+    sass\pathfinder.scs
+s 17:9  root stylesheet
+
+DEPRECATION WARNING [gl
+obal-builtin]: Global b
+uilt-in functions are d
+eprecated and will be r
+emoved in Dart Sass 3.0
+.0.
+Use color.adjust instea
+d.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??25 ??$link-hover-c
+olor:      darken($link
+-color, 15%);
+   ??                  
+      ^^^^^^^^^^^^^^^^^
+^^^^^^^
+   ??    sass\_variable
+s.scss 25:25  @import
+    sass\pathfinder.scs
+s 17:9   root styleshee
+t
+
+DEPRECATION WARNING [co
+lor-functions]: darken(
+) is deprecated. Sugges
+tions:
+
+color.scale($color, $li
+ghtness: -53.125%)
+color.adjust($color, $l
+ightness: -15%)
+
+More info: https://sass
+-lang.com/d/color-funct
+ions
+
+   ??25 ??$link-hover-c
+olor:      darken($link
+-color, 15%);
+   ??                  
+      ^^^^^^^^^^^^^^^^^
+^^^^^^^
+   ??    sass\_variable
+s.scss 25:25  @import
+    sass\pathfinder.scs
+s 17:9   root styleshee
+t
+
+DEPRECATION WARNING [gl
+obal-builtin]: Global b
+uilt-in functions are d
+eprecated and will be r
+emoved in Dart Sass 3.0
+.0.
+Use math.ceil instead.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??83 ??$font-size-la
+rge:         ceil(($fon
+t-size-base * 1.24)); /
+/ ~16px
+   ??                  
+        ^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
+   ??    sass\_variable
+s.scss 83:27  @import
+    sass\pathfinder.scs
+s 17:9   root styleshee
+t
+
+DEPRECATION WARNING [gl
+obal-builtin]: Global b
+uilt-in functions are d
+eprecated and will be r
+emoved in Dart Sass 3.0
+.0.
+Use math.ceil instead.
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/import
+
+   ??84 ??$font-size-sm
+all:         ceil(($fon
+t-size-base * 0.85)); /
+/ ~11px
+   ??                  
+        ^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
+   ??    sass\_variable
+s.scss 84:27  @import
+    sass\pathfinder.scs
+s 17:9   root styleshee
+t
+
+DEPRECATION WARNING [co
+lor-functions]: lighten
+() is deprecated. Sugge
+stions:
+
+color.scale($color, $li
+ghtness: 3.3442622951%)
+color.adjust($color, $l
+ightness: 2%)
+
+More info: https://sass
+-lang.com/d/color-funct
+ions
+
+    ??173 ??$btn-defaul
+t-border:             l
+ighten($gray-light, 2%)
+;
+    ??                 
+                ^^^^^^^
+^^^^^^^^^^^^^^^^^
+    ??    sass\_variabl
+es.scss 173:34  @import
+    sass\pathfinder.scs
+s 17:9    root styleshe
+et
+
+DEPRECATION WARNING [co
+lor-functions]: lighten
+() is deprecated. Sugge
+stions:
+
+color.scale($color, $li
+ghtness: 2.7868852459%)
+color.adjust($color, $l
+ightness: 2%)
+
+More info: https://sass
+-lang.com/d/color-funct
+ions
+
+    ??177 ??$btn-primar
+y-border:             l
+ighten($btn-primary-bg,
+ 2%);
+    ??                 
+                ^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+    ??    sass\_variabl
+es.scss 177:34  @import
+    sass\pathfinder.scs
+s 17:9    root styleshe
+et
+
+DEPRECATION WARNING [co
+lor-functions]: lighten
+() is deprecated. Sugge
+stions:
+
+color.scale($color, $li
+ghtness: 3.7362637363%)
+color.adjust($color, $l
+ightness: 2%)
+
+More info: https://sass
+-lang.com/d/color-funct
+ions
+
+    ??181 ??$btn-succes
+s-border:             l
+ighten($btn-success-bg,
+ 2%);
+    ??                 
+                ^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+    ??    sass\_variabl
+es.scss 181:34  @import
+    sass\pathfinder.scs
+s 17:9    root styleshe
+et
+
+DEPRECATION WARNING [sl
+ash-div]: Using / for d
+ivision outside of calc
+() is deprecated and wi
+ll be removed in Dart S
+ass 2.0.0.
+
+Recommendation: math.di
+v($grid-gutter-width, 2
+) or calc($grid-gutter-
+width / 2)
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/slash-div
+
+    ??338 ??$navbar-pad
+ding-horizontal:       
+ floor(($grid-gutter-wi
+dth / 2));
+    ??                 
+                       
+  ^^^^^^^^^^^^^^^^^^^^^
+^
+    ??    sass\_variabl
+es.scss 338:43  @import
+    sass\pathfinder.scs
+s 17:9    root styleshe
+et
+
+DEPRECATION WARNING [sl
+ash-div]: Using / for d
+ivision outside of calc
+() is deprecated and wi
+ll be removed in Dart S
+ass 2.0.0.
+
+Recommendation: math.di
+v($navbar-height - $lin
+e-height-computed, 2) o
+r calc(($navbar-height 
+- $line-height-computed
+) / 2)
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/slash-div
+
+    ??339 ??$navbar-pad
+ding-vertical:         
+ (($navbar-height - $li
+ne-height-computed) / 2
+);
+    ??                 
+                   ^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
+    ??    sass\_variabl
+es.scss 339:37  @import
+    sass\pathfinder.scs
+s 17:9    root styleshe
+et
+
+DEPRECATION WARNING [sl
+ash-div]: Using / for d
+ivision outside of calc
+() is deprecated and wi
+ll be removed in Dart S
+ass 2.0.0.
+
+Recommendation: math.di
+v($grid-gutter-width, 2
+) or calc($grid-gutter-
+width / 2)
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/slash-div
+
+    ??861 ??$smart-foot
+er-padding:      15px (
+$grid-gutter-width/2) 0
+;
+    ??                 
+                 ^^^^^^
+^^^^^^^^^^^^^^
+    ??    sass\_variabl
+es.scss 861:35  @import
+    sass\pathfinder.scs
+s 17:9    root styleshe
+et
+
+DEPRECATION WARNING [if
+-function]: The Sass if
+() syntax is deprecated
+ in favor of the modern
+ CSS syntax.
+
+Suggestion: if(sass($bo
+otstrap-sass-asset-help
+er): twbs-image-path("#
+{$file-1x}"); else: "#{
+$file-1x}")
+
+More info: https://sass
+-lang.com/d/if-function
+
+    ??364 ??  backgroun
+d-image: url(if($bootst
+rap-sass-asset-helper, 
+twbs-image-path("#{$fil
+e-1x}"), "#{$file-1x}")
+);
+    ??                 
+       ^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
+    ??    sass\bootstra
+p\_mixins.scss 364:25  
+@import
+    sass\_bootstrap.scs
+s 14:9           @impor
+t
+    sass\pathfinder.scs
+s 20:9           root s
+tylesheet
+
+DEPRECATION WARNING [if
+-function]: The Sass if
+() syntax is deprecated
+ in favor of the modern
+ CSS syntax.
+
+Suggestion: if(sass($bo
+otstrap-sass-asset-help
+er): twbs-image-path("#
+{$file-2x}"); else: "#{
+$file-2x}")
+
+More info: https://sass
+-lang.com/d/if-function
+
+    ??373 ??    backgro
+und-image: url(if($boot
+strap-sass-asset-helper
+, twbs-image-path("#{$f
+ile-2x}"), "#{$file-2x}
+"));
+    ??                 
+         ^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
+    ??    sass\bootstra
+p\_mixins.scss 373:27  
+@import
+    sass\_bootstrap.scs
+s 14:9           @impor
+t
+    sass\pathfinder.scs
+s 20:9           root s
+tylesheet
+
+DEPRECATION WARNING [sl
+ash-div]: Using / for d
+ivision outside of calc
+() is deprecated and wi
+ll be removed in Dart S
+ass 2.0.0.
+
+Recommendation: math.di
+v($line-height-computed
+, 2) or calc($line-heig
+ht-computed / 2)
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/slash-div
+
+   ??28 ??  margin-bott
+om: ($line-height-compu
+ted / 2);
+   ??                  
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+   ??    sass\bootstrap
+\_type.scss 28:19  @imp
+ort
+    sass\_bootstrap.scs
+s 23:9        @import
+    sass\pathfinder.scs
+s 20:9        root styl
+esheet
+
+DEPRECATION WARNING [sl
+ash-div]: Using / for d
+ivision outside of calc
+() is deprecated and wi
+ll be removed in Dart S
+ass 2.0.0.
+
+Recommendation: math.di
+v($line-height-computed
+, 2) or calc($line-heig
+ht-computed / 2)
+
+More info and automated
+ migrator: https://sass
+-lang.com/d/slash-div
+
+   ??38 ??  margin-top:
+ ($line-height-computed
+ / 2);
+   ??               ^^^
+^^^^^^^^^^^^^^^^^^^^^^
+   ??    sass\bootstrap
+\_type.scss 38:16  @imp
+ort
+    sass\_bootstrap.scs
+s 23:9        @import
+    sass\pathfinder.scs
+s 20:9        root styl
+esheet
+
+WARNING: 856 repetitive
+ deprecation warnings o
+mitted.
+
+[[90m06:48:25[39m]  [32m??[39m [32mbuild ??[35mpathfinder.css[39m[32m[39m
+[[90m06:48:25[39m] Finished 'task:sass' after 893 ms

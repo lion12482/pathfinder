@@ -1,0 +1,151 @@
+[[90m09:21:28[39m] Using gulpfile D:\GIT\pathfinder\gulpfile.js
+[[90m09:21:28[39m] Starting 'task:buildJs'...
+[[90m09:21:28[39m] Starting 'task:concatJS'...
+[[90m09:21:28[39m] Optimizing app\admin.js
+[[90m09:21:29[39m] [32mBuild concat file "admin.js"[39m
+(node:21944) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[[90m09:21:29[39m] Optimizing app\datatables.loader.js
+[[90m09:21:29[39m] [32mBuild concat file "datatables.loader.js"[39m
+[[90m09:21:29[39m] Optimizing app\login.js
+[[90m09:21:29[39m] [32mBuild concat file "login.js"[39m
+[[90m09:21:29[39m] Optimizing app\mappage.js
+[[90m09:21:30[39m] [32mBuild concat file "mappage.js"[39m
+[[90m09:21:30[39m] Optimizing app\pnotify.loader.js
+[[90m09:21:30[39m] [32mBuild concat file "pnotify.loader.js"[39m
+[[90m09:21:30[39m] Optimizing app\setup.js
+[[90m09:21:30[39m] [32mBuild concat file "setup.js"[39m
+[[90m09:21:30[39m] Optimizing app\summernote.loader.js
+[[90m09:21:31[39m] [32mBuild concat file "summernote.loader.js"[39m
+[[90m09:21:31[39m] Finished 'task:concatJS' after 2.24 s
+[[90m09:21:31[39m] Starting 'task:diffJS'...
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mapp.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35madmin.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mcounter.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdatatables.loader.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35minit.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mkey.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlogging.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlogin.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmappage.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmodule_map.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mpage.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mpnotify.loader.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mrender.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msetup.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msummernote.loader.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mutil.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mblueimp-gallery.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mblueimp-helper.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbootbox.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbootstrap-confirmation.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbootstrap-editable.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbootstrap-image-gallery.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbootstrap-toggle.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbootstrap.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35measytimer.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mfarahey.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery-3.4.1.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery.easypiechart.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery.hoverIntent.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery.mCustomScrollbar.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery.mousewheel.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery.peity.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjsplumb.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlazyload.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlocalforage.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmorris.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmustache.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mraphael.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mrequire.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mselect2.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mslidebars.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msortable.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mvalidator.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mvelocity.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mvelocity.ui.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msignature_type.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_effect.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mcache.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mconsole.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mcron.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdataStore.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdragSelect.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35meventHandler.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlocalStore.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mprototypes.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mresize.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msvg.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mcontextmenu.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlayout.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mlocal.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmagnetizing.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmap.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mscrollbar.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mutil.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mworker.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mpromise.deferred.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mpromise.queue.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mpromise.timeout.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mform_element.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmap.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmessage.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mNonBlock.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mPNotify.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mPNotifyButtons.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mPNotifyCallbacks.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mPNotifyDesktop.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mtext.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msummernote.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35moverlay.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mutil.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35maccount_settings.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mapi_status.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mchangelog.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mcredit.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdelete_account.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjump_info.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmanual.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmap_info.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mmap_settings.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mnotification.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mshortcuts.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mstats.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_effects.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mheader_login.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbase.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mconnection_info.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdemo.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mempty.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mglobal_thera.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_graph.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_info.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_intel.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_killboard.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_route.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35msystem_signature.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mbuttons.html5.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdataTables.buttons.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mjquery.dataTables.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdataTables.responsive.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdataTables.rowGroup.min.js[39m[32m[39m
+[[90m09:21:31[39m]  [32m✔[39m [32mbuild → [35mdataTables.select.min.js[39m[32m[39m
+[[90m09:21:31[39m] Copy JS src:  112 items
+[[90m09:21:31[39m] Finished 'task:diffJS' after 152 ms
+[[90m09:21:31[39m] Starting 'task:cleanJsDest'...
+[[90m09:21:31[39m] Finished 'task:cleanJsDest' after 26 ms
+[[90m09:21:31[39m] Starting 'task:updateJsDest'...
+[[90m09:21:31[39m] Starting 'task:gzipJsAssets'...
+[[90m09:21:31[39m] Starting 'task:brotliJsAssets'...
+[[90m09:21:31[39m] Gzip asses dest:  0 items
+[[90m09:21:31[39m] Finished 'task:gzipJsAssets' after 106 ms
+[[90m09:21:31[39m] Brotli asses dest:  0 items
+[[90m09:21:31[39m] Finished 'task:brotliJsAssets' after 106 ms
+[[90m09:21:31[39m] Starting 'task:renameJsDest'...
+[[90m09:21:31[39m] Rename JS dest:  113 items
+[[90m09:21:31[39m] Finished 'task:renameJsDest' after 163 ms
+[[90m09:21:31[39m] Starting 'task:cleanJsDestBuild'...
+[[90m09:21:31[39m] Finished 'task:cleanJsDestBuild' after 27 ms
+[[90m09:21:31[39m] Finished 'task:updateJsDest' after 297 ms
+[[90m09:21:31[39m] Finished 'task:buildJs' after 2.72 s
